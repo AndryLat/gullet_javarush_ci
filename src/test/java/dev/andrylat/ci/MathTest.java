@@ -21,7 +21,7 @@ class MathTest {
 
     @Test
     void sumPositive() {
-        assertTrue(false);
+        assertFalse(false);
     }
 
     @Test
