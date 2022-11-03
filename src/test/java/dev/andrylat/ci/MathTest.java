@@ -20,6 +20,11 @@ class MathTest {
     }
 
     @Test
+    void sumPositive() {
+        assertTrue(false);
+    }
+
+    @Test
     void sumPositive_Successful_WhenDataIsCorrect() {
         int expected = 10;
         int actual = math.sumPositive(4,6);
